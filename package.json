@@ -1,0 +1,30 @@
+{
+  "name": "ditto-upload",
+  "version": "1.0.0",
+  "description": "Ditto upload server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/michaeldeepak/node-upload.git"
+  },
+  "keywords": [
+    "Node",
+    "upload"
+  ],
+  "author": "Michael Deepak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaeldeepak/node-upload/issues"
+  },
+  "homepage": "https://github.com/michaeldeepak/node-upload#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "tus-node-server": "^0.2.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0"
+  }
+}
